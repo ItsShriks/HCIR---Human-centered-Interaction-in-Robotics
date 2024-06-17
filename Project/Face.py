@@ -60,10 +60,10 @@ while True:
 
     # Check if probability stays above 100% for more than 5 seconds
     current_time = time.time()
-    if probability > 100:
+    if probability > 50:
         if probability_above_100_start_time is None:
             probability_above_100_start_time = current_time
-        elif (current_time - probability_above_100_start_time) > 5:
+        elif (current_time - probability_above_100_start_time) > 2:
             if not success_displayed:
                 success_display_start_time = current_time
                 success_displayed = True
