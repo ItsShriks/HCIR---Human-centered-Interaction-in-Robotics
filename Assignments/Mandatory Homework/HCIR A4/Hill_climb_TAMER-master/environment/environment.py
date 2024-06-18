@@ -98,9 +98,12 @@ class Environment:
         reward = 0
         self.lock.acquire()
         area = self.screen.fill((128, 128, 128), (0, 0, self.screen.get_width(), 200))
-        #TODO: Fill in the for loop below and implement human feedback as per the docstring
-        # for event in pygame.event.get():
-        #     if event.type == pygame.KEYDOWN:
+        for event in pygame.event.get():
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_w:
+                    reward = 1
+                elif event.key == pygame.K_a:
+                    reward = -1
 
         pygame.display.update(area)
         self.reward = reward
