@@ -27,7 +27,9 @@ from agent.agent import Agent
 from environment.environment import Environment
 from pathlib import Path
 import config as cfg
-
+import os 
+os.makedirs('logs', exist_ok=True)
+os.makedirs('saved_models', exist_ok=True)
 MODELS_DIR = Path(__file__).parent.joinpath('saved_models')
 LOGS_DIR = Path(__file__).parent.joinpath('logs')
 
