@@ -1,0 +1,59 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_check
+  - action: utter_iamabot
+
+- rule: Provide information about requirements for master program
+  steps:
+  - intent: ask_mas_requirements
+  - action: utter_requirements_master_AS
+
+- rule: Confirm knowledge about master in autonomous systems
+  steps:
+  - intent: ask_about_mas_info
+  - action: utter_give_info
+
+- rule: Give Information about language proficiency
+  steps:
+  - intent: ask_language_requirements
+  - action: utter_info_about_language_proficiency
+
+- rule: Answer about the semester fees
+  steps:
+  - intent: ask_semester_fees
+  - action: utter_fee_master_AS
+
+- rule: Give Information about deadlines for applications
+  steps:
+  - intent: ask_application_deadlines
+  - action: utter_deadlines_master_AS
+
+- rule: Give information about the notification
+  steps:
+  - intent: ask_notification_timing
+  - action: utter_notification_master_AS
+
+- rule: Provide information about the letter of admission
+  steps:
+  - intent: ask_admission_letter
+  - action: utter_letter_of_admission_master_AS
+
+- rule: Give further information about the application process
+  steps:
+  - intent: inquire_application_process
+  - action: utter_application_process_AS
+
+- rule: Get mensa menu
+  steps:
+  - intent: ask_mensa_menu
+  - action: action_mensa
+

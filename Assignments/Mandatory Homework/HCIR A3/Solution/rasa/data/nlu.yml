@@ -1,0 +1,137 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - hey there
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - take care
+      - have a nice day
+      - bye bye
+
+  - intent: affirm
+    examples: |
+      - yes
+      - yeah
+      - sure
+      - indeed
+      - absolutely
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - nope
+      - not really
+      - I don't think so
+      - no way
+
+  - intent: feeling_good
+    examples: |
+      - I'm feeling great
+      - I'm doing well
+      - I feel amazing
+      - I am very happy
+      - I feel wonderful
+      - Everything is going well
+
+  - intent: feeling_bad
+    examples: |
+      - I'm feeling down
+      - I'm not doing well
+      - I feel terrible
+      - I'm very sad
+      - I am unhappy
+      - Today has been a bad day
+
+  - intent: bot_check
+    examples: |
+      - Are you a bot?
+      - Are you a human?
+      - Am I talking to a bot?
+      - Are you real?
+      - Is this a chatbot?
+
+  - intent: ask_about_mas_info
+    examples: |
+      - Can you give me information about the Master in Autonomous Systems?
+      - What can you tell me about the MAS program?
+      - Tell me about the Master in Autonomous Systems.
+      - Can you provide details on the MAS program?
+
+  - intent: ask_mas_requirements
+    examples: |
+      - What are the requirements for the Master in Autonomous Systems?
+      - What are the admission criteria for the MAS program?
+      - Can you tell me the requirements for this master's program?
+      - What do I need to apply for the MAS program?
+
+  - intent: ask_language_requirements
+    examples: |
+      - Do I need any language certificates for the MAS program?
+      - In what language is the MAS program taught?
+      - What kind of language skills are required for the MAS program?
+      - Are there any language proficiency requirements?
+      - What language proficiency is needed for admission?
+
+  - intent: ask_mensa_menu
+    examples: |
+      - What's on the menu at the university cafeteria today?
+      - What's today's lunch menu?
+      - Can you tell me what's being served at the mensa today?
+      - I'd like to know the dishes available at the university mensa.
+      - What's for lunch at the mensa today?
+
+  - intent: ask_semester_fees
+    examples: |
+      - What are the semester fees for the MAS program?
+      - How much is the tuition for the MAS program?
+      - What do I have to pay per semester for the MAS program?
+      - Can you tell me the fees for the master's in autonomous systems?
+      - What are the costs per semester for the MAS program?
+
+  - intent: ask_application_deadlines
+    examples: |
+      - What are the application deadlines for the MAS program?
+      - When is the deadline to apply for the MAS program?
+      - What is the deadline for MAS applications?
+      - When do I need to submit my application for the MAS program?
+      - When is the application cutoff for the MAS program?
+
+  - intent: ask_notification_timing
+    examples: |
+      - When will I be notified about my MAS application?
+      - When will I get a response regarding my MAS application?
+      - When will I hear back about the MAS program decision?
+      - How long does it take to get a reply for the MAS application?
+      - When should I expect a decision on my MAS application?
+
+  - intent: ask_admission_letter
+    examples: |
+      - What is the letter of admission for the MAS program?
+      - When will I receive the letter of admission for the MAS program?
+      - Will I get a hardcopy of the admission letter for the MAS program?
+      - How will I receive the admission letter for the MAS program?
+      - Can you tell me about the admission letter for the MAS program?
+
+  - intent: inquire_application_process
+    examples: |
+      - How do I apply for the MAS program?
+      - What is the application process for the MAS program?
+      - Can you guide me on how to apply for the MAS program?
+      - Where can I apply for the MAS program?
+      - What is the link to apply for the MAS program?
+
+

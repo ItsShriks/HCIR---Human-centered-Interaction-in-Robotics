@@ -1,0 +1,96 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: feeling_good
+      - action: utter_happy
+
+  - story: sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: feeling_bad
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: feeling_bad
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - story: ask about requirements, language proficiency and fees in master autonomous systems
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_about_mas_info
+      - action: utter_give_info
+      - intent: ask_mas_requirements
+      - action: utter_requirements_master_AS
+      - intent: ask_language_requirements
+      - action: utter_info_about_language_proficiency
+      - intent: ask_semester_fees
+      - action: utter_fee_master_AS
+      - intent: feeling_good
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: ask about requirements, deadline and notification in master autonomous systems
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_about_mas_info
+      - action: utter_give_info
+      - intent: ask_mas_requirements
+      - action: utter_requirements_master_AS
+      - intent: ask_application_deadlines
+      - action: utter_deadlines_master_AS
+      - intent: ask_notification_timing
+      - action: utter_notification_master_AS
+      - intent: feeling_good
+      - action: utter_happy
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: inform about notification and letter of admission in master autonomous systems
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_notification_timing
+      - action: utter_notification_master_AS
+      - intent: ask_admission_letter
+      - action: utter_letter_of_admission_master_AS
+      - intent: feeling_good
+      - action: utter_happy
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: inform about application process, requirements and language proficiency in master autonomous systems
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_about_mas_info
+      - action: utter_give_info
+      - intent: inquire_application_process
+      - action: utter_application_process_AS
+      - intent: ask_mas_requirements
+      - action: utter_requirements_master_AS
+      - intent: ask_language_requirements
+      - action: utter_info_about_language_proficiency
+      - intent: feeling_good
+      - action: utter_happy
+      - intent: goodbye
+      - action: utter_goodbye
+
