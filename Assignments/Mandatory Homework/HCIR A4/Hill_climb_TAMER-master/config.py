@@ -24,12 +24,12 @@ IF_INTERACTIVE = True
 #Available models: tamer, qlearning
 
 #TODO: enter the model you wish to train
-IRL_MODEL = tamer
+IRL_MODEL = 'tamer'
 
 # Credit assignment status: True, False
 
 #TODO: set the credit assignment status
-CA_STATUS = True 
+CA_STATUS = False
 
 # set a timestep for training the agent
 # the more time per step, the easier for the human
