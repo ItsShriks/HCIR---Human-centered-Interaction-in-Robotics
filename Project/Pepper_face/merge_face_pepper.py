@@ -10,7 +10,7 @@ from playsound import playsound
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Path to the success image
-success_image_path = "Media/Success.001.jpeg"  # Change this to your image path
+success_image_path = "../Media/Success.001.jpeg"  # Change this to your image path
 
 # Start video capture from the webcam
 cap = cv2.VideoCapture(0)
