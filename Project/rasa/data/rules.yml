@@ -1,0 +1,118 @@
+version: "3.1"
+
+rules:
+  - rule: Greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Affirmation
+    steps:
+      - intent: affirm
+      - action: utter_default
+
+  - rule: Denial
+    steps:
+      - intent: deny
+      - action: utter_default
+
+  - rule: List subjects
+    steps:
+      - intent: ask_subjects
+      - action: utter_subjects
+
+  - rule: Provide subject detail - Adaptive Signal Processing
+    steps:
+      - intent: ask_adaptive_signal_processing
+      - action: utter_adaptive_signal_processing
+
+  - rule: Provide subject detail - Advanced Mathematics for Robotics
+    steps:
+      - intent: ask_advanced_mathematics_for_robotics
+      - action: utter_advanced_mathematics_for_robotics
+
+  - rule: Provide subject detail - Computer Vision
+    steps:
+      - intent: ask_computer_vision
+      - action: utter_computer_vision
+
+  - rule: Provide subject detail - Evolutionary Computation - Theory and Application
+    steps:
+      - intent: ask_evolutionary_computation
+      - action: utter_evolutionary_computation
+
+  - rule: Provide subject detail - Fault Detection and Diagnosis
+    steps:
+      - intent: ask_fault_detection_diagnosis
+      - action: utter_fault_detection_diagnosis
+
+  - rule: Provide subject detail - Learning and Adaptivity
+    steps:
+      - intent: ask_learning_adaptivity
+      - action: utter_learning_adaptivity
+
+  - rule: Provide subject detail - Mobile Manipulation
+    steps:
+      - intent: ask_mobile_manipulation
+      - action: utter_mobile_manipulation
+
+  - rule: Provide subject detail - Multiagent and Agent Systems
+    steps:
+      - intent: ask_multiagent_agent_systems
+      - action: utter_multiagent_agent_systems
+
+  - rule: Provide subject detail - Neural Networks
+    steps:
+      - intent: ask_neural_networks
+      - action: utter_neural_networks
+
+  - rule: Provide subject detail - Nonlinear Control
+    steps:
+      - intent: ask_nonlinear_control
+      - action: utter_nonlinear_control
+
+  - rule: Provide subject detail - Planning and Scheduling
+    steps:
+      - intent: ask_planning_scheduling
+      - action: utter_planning_scheduling
+
+  - rule: Provide subject detail - Probabilistic Reasoning
+    steps:
+      - intent: ask_probabilistic_reasoning
+      - action: utter_probabilistic_reasoning
+
+  - rule: Provide subject detail - Robot Manipulation
+    steps:
+      - intent: ask_robot_manipulation
+      - action: utter_robot_manipulation
+
+  - rule: Provide subject detail - Robot Perception
+    steps:
+      - intent: ask_robot_perception
+      - action: utter_robot_perception
+
+  - rule: Provide subject detail - Robust Control
+    steps:
+      - intent: ask_robust_control
+      - action: utter_robust_control
+
+  - rule: Feeling good
+    steps:
+      - intent: feeling_good
+      - action: utter_feeling_good
+
+  - rule: Feeling bad
+    steps:
+      - intent: feeling_bad
+      - action: utter_feeling_bad
+
+  - rule: Fallback rule
+    steps:
+      - intent: fallback
+      - action: utter_not_found
+

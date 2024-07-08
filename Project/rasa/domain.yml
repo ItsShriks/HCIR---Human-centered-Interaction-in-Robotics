@@ -1,0 +1,116 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - feeling_good
+  - feeling_bad
+  - affirm
+  - deny
+  - ask_subjects
+  - ask_adaptive_signal_processing
+  - ask_advanced_mathematics_for_robotics
+  - ask_computer_vision
+  - ask_evolutionary_computation
+  - ask_fault_detection_diagnosis
+  - ask_learning_adaptivity
+  - ask_mobile_manipulation
+  - ask_multiagent_agent_systems
+  - ask_neural_networks
+  - ask_nonlinear_control
+  - ask_planning_scheduling
+  - ask_probabilistic_reasoning
+  - ask_robot_manipulation
+  - ask_robot_perception
+  - ask_robust_control
+  - fallback
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_default:
+    - text: "I'm sorry, I didn't quite get that. Could you please repeat?"
+    
+  utter_feeling_good:
+    - text: "I'm glad to hear that! How can I help you?"
+
+  utter_feeling_bad:
+    - text: "I'm sorry to hear that. How can I assist you to make things better?"
+
+utter_subjects:
+  - text: |
+      Here are the elective subjects I can provide information on:
+      - Adaptive Signal Processing
+      - Advanced Mathematics for Robotics
+      - Computer Vision
+      - Evolutionary Computation - Theory and Application
+      - Fault Detection and Diagnosis
+      - Learning and Adaptivity
+      - Mobile Manipulation
+      - Multiagent and Agent Systems
+      - Neural Networks
+      - Nonlinear Control
+      - Planning and Scheduling
+      - Probabilistic Reasoning
+      - Robot Manipulation
+      - Robot Perception
+      - Robust Control
+      Which one are you interested in?
+
+
+  utter_adaptive_signal_processing:
+    - text: "Adaptive Signal Processing: Enhances signal processing for embedded systems. Covers deterministic/random signals, adaptive filters, non-linear systems, and time-frequency measurements. 
+    - Requires strong math/technical background and interest in applications like consumer electronics/automotive. 
+    - Includes lectures, exercises, and assessments via oral/written exams. Utilizes visual media, blackboard exercises, e-learning (LEA), and technical articles.
+    - Responsible:Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
+
+  utter_advanced_mathematics_for_robotics:
+    - text: "Advanced Mathematics for Robotics covers mathematical foundations essential for robotics, including kinematics, dynamics, and control theory."
+
+  utter_computer_vision:
+    - text: "Computer Vision deals with enabling machines to interpret and understand the visual world. It's used in applications like image recognition and autonomous vehicles."
+
+  utter_evolutionary_computation:
+    - text: "Evolutionary Computation - Theory and Application focuses on algorithms inspired by biological evolution. It's used for optimization and problem-solving in complex domains."
+
+  utter_fault_detection_diagnosis:
+    - text: "Fault Detection and Diagnosis involves methods for identifying and isolating faults in systems. It's crucial for ensuring reliability and safety in industrial applications."
+
+  utter_learning_adaptivity:
+    - text: "Learning and Adaptivity covers techniques for machines to learn from data and adapt their behavior based on experience. It's essential for creating intelligent systems."
+
+  utter_mobile_manipulation:
+    - text: "Mobile Manipulation deals with robots that can move and manipulate objects in dynamic environments. It's used in tasks like warehouse automation and field robotics."
+
+  utter_multiagent_agent_systems:
+    - text: "Multiagent and Agent Systems focus on systems composed of multiple interacting agents, each pursuing its own goals. It's used in areas like swarm robotics and distributed computing."
+
+  utter_neural_networks:
+    - text: "Neural Networks are computing systems inspired by the biological neural networks of the human brain. They are used for pattern recognition, classification, and other AI tasks."
+
+  utter_nonlinear_control:
+    - text: "Nonlinear Control deals with controlling systems that exhibit nonlinear behavior. It's essential for handling complex systems like aircraft and robotics."
+
+  utter_planning_scheduling:
+    - text: "Planning and Scheduling involves algorithms and techniques for organizing tasks and resources over time. It's crucial for efficient operation in industrial and logistics settings."
+
+  utter_probabilistic_reasoning:
+    - text: "Probabilistic Reasoning involves reasoning under uncertainty using probabilistic models. It's used in applications like medical diagnosis and risk assessment."
+
+  utter_robot_manipulation:
+    - text: "Robot Manipulation focuses on the physical interaction between robots and their environment, including grasping, manipulation, and dexterity."
+
+  utter_robot_perception:
+    - text: "Robot Perception involves systems and algorithms for robots to perceive and interpret their environment using sensors like cameras and lidar."
+
+  utter_robust_control:
+    - text: "Robust Control focuses on designing control systems that can perform effectively despite uncertainties and variations in system parameters."
+
+  utter_not_found:
+    - text: "I don't have information on that subject yet. Could you please choose from the list I provided?"
+
+

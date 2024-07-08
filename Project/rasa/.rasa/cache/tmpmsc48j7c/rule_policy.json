@@ -1,0 +1,46 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_elective\"}}]": "utter_ask_difficulty",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_elective\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_difficulty\"}, \"user\": {\"intent\": \"choose_elective\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"difficulty\": [1.0]}, \"user\": {\"entities\": [\"difficulty\"], \"intent\": \"inform\"}}]": "utter_ask_semester",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"difficulty\": [1.0]}, \"user\": {\"entities\": [\"difficulty\"], \"intent\": \"inform\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_semester\"}, \"slots\": {\"difficulty\": [1.0]}, \"user\": {\"entities\": [\"difficulty\"], \"intent\": \"inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bad_language\"}}]": "utter_bad_language",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bad_language\"}}, {\"prev_action\": {\"action_name\": \"utter_bad_language\"}, \"user\": {\"intent\": \"bad_language\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"credits\": [1.0]}, \"user\": {\"entities\": [\"credits\"], \"intent\": \"inform\"}}]": "action_recommend_elective",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"credits\": [1.0]}, \"user\": {\"entities\": [\"credits\"], \"intent\": \"inform\"}}, {\"prev_action\": {\"action_name\": \"action_recommend_elective\"}, \"slots\": {\"credits\": [1.0]}, \"user\": {\"entities\": [\"credits\"], \"intent\": \"inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"semester\": [1.0]}, \"user\": {\"entities\": [\"semester\"], \"intent\": \"inform\"}}]": "utter_ask_credits",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"semester\": [1.0]}, \"user\": {\"entities\": [\"semester\"], \"intent\": \"inform\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_credits\"}, \"slots\": {\"semester\": [1.0]}, \"user\": {\"entities\": [\"semester\"], \"intent\": \"inform\"}}]": "action_listen"
+    },
+    "rule_only_slots": [
+      "difficulty",
+      "credits",
+      "semester"
+    ],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_elective\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_difficulty\"}, \"user\": {\"intent\": \"choose_elective\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bad_language\"}}, {\"prev_action\": {\"action_name\": \"utter_bad_language\"}, \"user\": {\"intent\": \"bad_language\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"semester\": [1.0]}, \"user\": {\"entities\": [\"semester\"], \"intent\": \"inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"difficulty\": [1.0]}, \"user\": {\"entities\": [\"difficulty\"], \"intent\": \"inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"credits\": [1.0]}, \"user\": {\"entities\": [\"credits\"], \"intent\": \"inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"credits\": [1.0]}, \"user\": {\"entities\": [\"credits\"], \"intent\": \"inform\"}}, {\"prev_action\": {\"action_name\": \"action_recommend_elective\"}, \"slots\": {\"credits\": [1.0]}, \"user\": {\"entities\": [\"credits\"], \"intent\": \"inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bad_language\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"semester\": [1.0]}, \"user\": {\"entities\": [\"semester\"], \"intent\": \"inform\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_credits\"}, \"slots\": {\"semester\": [1.0]}, \"user\": {\"entities\": [\"semester\"], \"intent\": \"inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"difficulty\": [1.0]}, \"user\": {\"entities\": [\"difficulty\"], \"intent\": \"inform\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_semester\"}, \"slots\": {\"difficulty\": [1.0]}, \"user\": {\"entities\": [\"difficulty\"], \"intent\": \"inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_elective\"}}]",
+      "predicting default action with intent restart"
+    ]
+  }
+}

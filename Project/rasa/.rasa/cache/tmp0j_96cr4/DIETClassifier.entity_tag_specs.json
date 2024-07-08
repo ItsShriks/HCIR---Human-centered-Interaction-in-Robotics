@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-credits",
+      "2": "I-credits",
+      "3": "L-credits",
+      "4": "U-credits",
+      "5": "B-difficulty",
+      "6": "I-difficulty",
+      "7": "L-difficulty",
+      "8": "U-difficulty",
+      "9": "B-semester",
+      "10": "I-semester",
+      "11": "L-semester",
+      "12": "U-semester",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-credits": 1,
+      "I-credits": 2,
+      "L-credits": 3,
+      "U-credits": 4,
+      "B-difficulty": 5,
+      "I-difficulty": 6,
+      "L-difficulty": 7,
+      "U-difficulty": 8,
+      "B-semester": 9,
+      "I-semester": 10,
+      "L-semester": 11,
+      "U-semester": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
