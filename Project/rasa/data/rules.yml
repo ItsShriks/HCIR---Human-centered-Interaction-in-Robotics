@@ -71,35 +71,10 @@ rules:
       - intent: ask_neural_networks
       - action: utter_neural_networks
 
-  - rule: Provide subject detail - Nonlinear Control
-    steps:
-      - intent: ask_nonlinear_control
-      - action: utter_nonlinear_control
-
-  - rule: Provide subject detail - Planning and Scheduling
-    steps:
-      - intent: ask_planning_scheduling
-      - action: utter_planning_scheduling
-
   - rule: Provide subject detail - Probabilistic Reasoning
     steps:
       - intent: ask_probabilistic_reasoning
       - action: utter_probabilistic_reasoning
-
-  - rule: Provide subject detail - Robot Manipulation
-    steps:
-      - intent: ask_robot_manipulation
-      - action: utter_robot_manipulation
-
-  - rule: Provide subject detail - Robot Perception
-    steps:
-      - intent: ask_robot_perception
-      - action: utter_robot_perception
-
-  - rule: Provide subject detail - Robust Control
-    steps:
-      - intent: ask_robust_control
-      - action: utter_robust_control
 
   - rule: Feeling good
     steps:

@@ -144,24 +144,6 @@ nlu:
     - Explain Neural Networks
     - How do Neural Networks learn?
 
-- intent: ask_nonlinear_control
-  examples: |
-    - What is Nonlinear Control?
-    - Tell me about Nonlinear Control
-    - I want to learn about Nonlinear Control
-    - Nonlinear Control details
-    - Explain Nonlinear Control
-    - When is Nonlinear Control used?
-
-- intent: ask_planning_scheduling
-  examples: |
-    - What is Planning and Scheduling?
-    - Tell me about Planning and Scheduling
-    - I want to learn about Planning and Scheduling
-    - Planning and Scheduling details
-    - Explain Planning and Scheduling
-    - How does Planning and Scheduling optimize processes?
-
 - intent: ask_probabilistic_reasoning
   examples: |
     - What is Probabilistic Reasoning?
@@ -170,33 +152,6 @@ nlu:
     - Probabilistic Reasoning details
     - Explain Probabilistic Reasoning
     - Why is Probabilistic Reasoning important in AI?
-
-- intent: ask_robot_manipulation
-  examples: |
-    - What is Robot Manipulation?
-    - Tell me about Robot Manipulation
-    - I want to learn about Robot Manipulation
-    - Robot Manipulation details
-    - Explain Robot Manipulation
-    - How is Robot Manipulation used in industry?
-
-- intent: ask_robot_perception
-  examples: |
-    - What is Robot Perception?
-    - Tell me about Robot Perception
-    - I want to learn about Robot Perception
-    - Robot Perception details
-    - Explain Robot Perception
-    - How do robots perceive their environment?
-
-- intent: ask_robust_control
-  examples: |
-    - What is Robust Control?
-    - Tell me about Robust Control
-    - I want to learn about Robust Control
-    - Robust Control details
-    - Explain Robust Control
-    - When is Robust Control applied?
 
 - intent: fallback
   examples: |
