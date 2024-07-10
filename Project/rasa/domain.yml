@@ -15,7 +15,7 @@ intents:
   - ask_fault_detection_diagnosis
   - ask_learning_adaptivity
   - ask_mobile_manipulation
-  - ask_multiagent_agent_systems
+  - ask_multiagent_systems
   - ask_neural_networks
   - ask_nonlinear_control
   - ask_planning_scheduling
