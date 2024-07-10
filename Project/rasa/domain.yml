@@ -41,7 +41,7 @@ responses:
   utter_feeling_bad:
     - text: "I'm sorry to hear that. How can I assist you to make things better?"
 
-utter_subjects:
+ utter_subjects:
    - text: |
       Here are the elective subjects I can provide information on:
       - Adaptive Signal Processing
@@ -60,8 +60,8 @@ utter_subjects:
   utter_adaptive_signal_processing:
     - text: "Adaptive Signal Processing: Enhances signal processing for embedded systems. Covers deterministic/random signals, adaptive filters, non-linear systems, and time-frequency measurements. 
     - Requires strong math/technical background and interest in applications like consumer electronics/automotive. 
-     - Includes lectures, exercises, and assessments via oral/written exams. Utilizes visual media, blackboard exercises, e-learning (LEA), and technical articles.
-     - Responsible:Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
+    - Includes lectures, exercises, and assessments via oral/written exams. Utilizes visual media, blackboard exercises, e-learning (LEA), and technical articles.
+    - Responsible:Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
 
   utter_advanced_mathematics_for_robotics:
     - text: "Advanced Mathematics for Robotics:This course deepens understanding and application of advanced mathematical theories to model complex robotic problems like manipulators and roadmap algorithms.
@@ -102,20 +102,20 @@ utter_subjects:
     - Coursework includes active participation in lectures, solving homework exercises, and a final oral or written examination.
     - Taught by Prof. Dr. Erwin Praßler"
     
-utter_multiagent_systems:
-  - text: "Multiagent and Agent Systems: This course explores basic concepts and architectures of multiagent systems, focusing on practical applications in distributed artificial intelligence.
-   - Topics include intelligent autonomous agents, logical foundations, agent architectures, decision making, markets, and auctions. 
-   - Coursework involves active class participation, homework exercises, a term project, and a final examination.
-   - Taught by Prof. Dr.-Ing. Gerhard Kraetzschmar"
+ utter_multiagent_systems:
+    - text: "Multiagent and Agent Systems: This course explores basic concepts and architectures of multiagent systems, focusing on practical applications in distributed artificial intelligence.
+    - Topics include intelligent autonomous agents, logical foundations, agent architectures, decision making, markets, and auctions. 
+    - Coursework involves active class participation, homework exercises, a term project, and a final examination.
+    - Taught by Prof. Dr.-Ing. Gerhard Kraetzschmar"
  
-utter_neural_networks:
-  - text: "Neural Networks: This course, led by Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger, contextualizes neural networks within broader machine learning approaches.
-   - It deepens understanding of neural networks, explores advanced concepts like Echo State Networks (ESNs), and applies NNs to problems in autonomous robots.
-   - Content includes qualitative descriptions of NNs, their composition, and relation to AI.
-   - Coursework requirements include achieving 50% correct in homework exercises, conducting and documenting a small project, and completing a final written examination or E-assessment."
+ utter_neural_networks:
+    - text: "Neural Networks: This course, led by Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger, contextualizes neural networks within broader machine learning approaches.
+    - It deepens understanding of neural networks, explores advanced concepts like Echo State Networks (ESNs), and applies NNs to problems in autonomous robots.
+    - Content includes qualitative descriptions of NNs, their composition, and relation to AI.
+    - Coursework requirements include achieving 50% correct in homework exercises, conducting and documenting a small project, and completing a final written examination or E-assessment."
 
-utter_probabilistic_reasoning:
-  - text: "Probabilistic Reasoning: Led by Prof. Dr. Erwin Praßler, this course covers probabilistic models such as Bayesian Networks, Gaussian distributions, and others to describe uncertain processes.
+ utter_probabilistic_reasoning:
+    - text: "Probabilistic Reasoning: Led by Prof. Dr. Erwin Praßler, this course covers probabilistic models such as Bayesian Networks, Gaussian distributions, and others to describe uncertain processes.
     - Students gain methodological competency in applying probabilistic methods like Kalman Filters and Particle Filters to data processing, modeling, and reasoning tasks. 
     - They develop a sensibility for the strengths and limitations of probabilistic descriptions and arguments based on probability theory, uncertainty, and decision-making.
     - Content includes probability theory and uncertainty, Bayesian networks, dynamic Bayesian networks, simple and complex decision-making.
