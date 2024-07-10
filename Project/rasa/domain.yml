@@ -42,7 +42,7 @@ responses:
     - text: "I'm sorry to hear that. How can I assist you to make things better?"
 
 utter_subjects:
-  - text: |
+   - text: |
       Here are the elective subjects I can provide information on:
       - Adaptive Signal Processing
       - Advanced Mathematics for Robotics
@@ -60,15 +60,15 @@ utter_subjects:
   utter_adaptive_signal_processing:
     - text: "Adaptive Signal Processing: Enhances signal processing for embedded systems. Covers deterministic/random signals, adaptive filters, non-linear systems, and time-frequency measurements. 
     - Requires strong math/technical background and interest in applications like consumer electronics/automotive. 
-    - Includes lectures, exercises, and assessments via oral/written exams. Utilizes visual media, blackboard exercises, e-learning (LEA), and technical articles.
-    - Responsible:Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
+     - Includes lectures, exercises, and assessments via oral/written exams. Utilizes visual media, blackboard exercises, e-learning (LEA), and technical articles.
+     - Responsible:Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
 
   utter_advanced_mathematics_for_robotics:
     - text: "Advanced Mathematics for Robotics:This course deepens understanding and application of advanced mathematical theories to model complex robotic problems like manipulators and roadmap algorithms.
-    - Conducted in a flipped classroom style, students prepare through reading at home, with class time dedicated to answering questions and solving exercises. 
-    - The course concludes with a final examination using quiz cards or an e-assessment.
-    - Prior mastery of MAS core mathematics is required.
-    - Responsible: Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
+     - Conducted in a flipped classroom style, students prepare through reading at home, with class time dedicated to answering questions and solving exercises. 
+     - The course concludes with a final examination using quiz cards or an e-assessment.
+     - Prior mastery of MAS core mathematics is required.
+     - Responsible: Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
 
   utter_computer_vision:
   - text: "Computer Vision: This course introduces advanced concepts of computer and active vision, focusing on the integration of multisensor information and efficient design of vision algorithms.
