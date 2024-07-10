@@ -53,12 +53,7 @@ utter_subjects:
       - Mobile Manipulation
       - Multiagent and Agent Systems
       - Neural Networks
-      - Nonlinear Control
-      - Planning and Scheduling
       - Probabilistic Reasoning
-      - Robot Manipulation
-      - Robot Perception
-      - Robust Control
       Which one are you interested in?
 
 
@@ -69,46 +64,62 @@ utter_subjects:
     - Responsible:Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
 
   utter_advanced_mathematics_for_robotics:
-    - text: "Advanced Mathematics for Robotics covers mathematical foundations essential for robotics, including kinematics, dynamics, and control theory."
+    - text: "Advanced Mathematics for Robotics:This course deepens understanding and application of advanced mathematical theories to model complex robotic problems like manipulators and roadmap algorithms.
+    - Conducted in a flipped classroom style, students prepare through reading at home, with class time dedicated to answering questions and solving exercises. 
+    - The course concludes with a final examination using quiz cards or an e-assessment.
+    - Prior mastery of MAS core mathematics is required.
+    - Responsible: Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
 
   utter_computer_vision:
-    - text: "Computer Vision deals with enabling machines to interpret and understand the visual world. It's used in applications like image recognition and autonomous vehicles."
+  - text: "Computer Vision: This course introduces advanced concepts of computer and active vision, focusing on the integration of multisensor information and efficient design of vision algorithms.
+    - Conducted with lectures and practical lab work, students engage in individual CV projects and solve exercises.
+    - The course concludes with a written or oral examination.
+    - Prior knowledge in Signal and Image Processing, Numerical Computations, and programming in C and C++ is required.
+    - Responsible: Prof. Dr.-Ing. Rainer Herpers"
 
   utter_evolutionary_computation:
-    - text: "Evolutionary Computation - Theory and Application focuses on algorithms inspired by biological evolution. It's used for optimization and problem-solving in complex domains."
+  - text: "Evolutionary Computation - Theory and Application: The course introduces methods, concepts, and theoretical foundations of evolutionary computation, focusing on Genetic Algorithms and Evolutionary Strategies.
+    - Students gain practical experience through implementation and learn best practices and challenges.
+    - Prior knowledge in linear algebra, probability theory, basic complexity understanding, and programming is required.
+    - Responsible Prof. Dr. Alexander Asteroth"
 
   utter_fault_detection_diagnosis:
-    - text: "Fault Detection and Diagnosis involves methods for identifying and isolating faults in systems. It's crucial for ensuring reliability and safety in industrial applications."
+  - text: "Fault Detection and Diagnosis: This course covers basic terms and methods of Fault Detection and Diagnosis (FDD), emphasizing signal characteristics for fault determination and building fault-tolerant controllers.
+    - Prior knowledge in basic system and control theory is required, as taught by master course MRC, or from foundational texts like Control Systems Engineering.
+    - Understand basic FDD terms, learn typical methods, apply insights to robotics, distinguish faults from human-robot interaction, and address execution faults.
+    - Familiarity with simulation environments (e.g., MATLAB/Simulink or Python/Control) is helpful but not mandatory.
+    - Responsible: Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger"
 
   utter_learning_adaptivity:
-    - text: "Learning and Adaptivity covers techniques for machines to learn from data and adapt their behavior based on experience. It's essential for creating intelligent systems."
+  - text: "Learning and Adaptivity: This course introduces concepts, methods, and tools for implementing learning and adaptivity on robots. 
+    - It covers benefits, pitfalls, and limitations of various approaches.
+    - Prior knowledge includes familiarity with information theory, theory of computation, complexity theory, probability theory, Java and C++ programming, and Linux operating systems.
+    - Responsible: Prof. Dr.-Ing. Gerhard Kraetzschmar."
 
   utter_mobile_manipulation:
-    - text: "Mobile Manipulation deals with robots that can move and manipulate objects in dynamic environments. It's used in tasks like warehouse automation and field robotics."
+  - text: "Mobile Manipulation: This course focuses on designing and implementing new robot applications using mobile manipulation technology.
+    - It covers mobile manipulation algorithms, control architectures, path planning, 3D perception, and robotic SDKs for mobile manipulators.
+    - Coursework includes active participation in lectures, solving homework exercises, and a final oral or written examination.
+    - Taught by Prof. Dr. Erwin Praßler"
+    
+utter_multiagent_systems:
+  - text: "Multiagent and Agent Systems: This course explores basic concepts and architectures of multiagent systems, focusing on practical applications in distributed artificial intelligence.
+   - Topics include intelligent autonomous agents, logical foundations, agent architectures, decision making, markets, and auctions. 
+   - Coursework involves active class participation, homework exercises, a term project, and a final examination.
+   - Taught by Prof. Dr.-Ing. Gerhard Kraetzschmar"
+ 
+utter_neural_networks:
+  - text: "Neural Networks: This course, led by Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger, contextualizes neural networks within broader machine learning approaches.
+   - It deepens understanding of neural networks, explores advanced concepts like Echo State Networks (ESNs), and applies NNs to problems in autonomous robots.
+   - Content includes qualitative descriptions of NNs, their composition, and relation to AI.
+   - Coursework requirements include achieving 50% correct in homework exercises, conducting and documenting a small project, and completing a final written examination or E-assessment."
 
-  utter_multiagent_agent_systems:
-    - text: "Multiagent and Agent Systems focus on systems composed of multiple interacting agents, each pursuing its own goals. It's used in areas like swarm robotics and distributed computing."
-
-  utter_neural_networks:
-    - text: "Neural Networks are computing systems inspired by the biological neural networks of the human brain. They are used for pattern recognition, classification, and other AI tasks."
-
-  utter_nonlinear_control:
-    - text: "Nonlinear Control deals with controlling systems that exhibit nonlinear behavior. It's essential for handling complex systems like aircraft and robotics."
-
-  utter_planning_scheduling:
-    - text: "Planning and Scheduling involves algorithms and techniques for organizing tasks and resources over time. It's crucial for efficient operation in industrial and logistics settings."
-
-  utter_probabilistic_reasoning:
-    - text: "Probabilistic Reasoning involves reasoning under uncertainty using probabilistic models. It's used in applications like medical diagnosis and risk assessment."
-
-  utter_robot_manipulation:
-    - text: "Robot Manipulation focuses on the physical interaction between robots and their environment, including grasping, manipulation, and dexterity."
-
-  utter_robot_perception:
-    - text: "Robot Perception involves systems and algorithms for robots to perceive and interpret their environment using sensors like cameras and lidar."
-
-  utter_robust_control:
-    - text: "Robust Control focuses on designing control systems that can perform effectively despite uncertainties and variations in system parameters."
+utter_probabilistic_reasoning:
+  - text: "Probabilistic Reasoning: Led by Prof. Dr. Erwin Praßler, this course covers probabilistic models such as Bayesian Networks, Gaussian distributions, and others to describe uncertain processes.
+    - Students gain methodological competency in applying probabilistic methods like Kalman Filters and Particle Filters to data processing, modeling, and reasoning tasks. 
+    - They develop a sensibility for the strengths and limitations of probabilistic descriptions and arguments based on probability theory, uncertainty, and decision-making.
+    - Content includes probability theory and uncertainty, Bayesian networks, dynamic Bayesian networks, simple and complex decision-making.
+    - Coursework involves active class participation, solving homework exercises, and a final oral or written examination."
 
   utter_not_found:
     - text: "I don't have information on that subject yet. Could you please choose from the list I provided?"
