@@ -15,7 +15,7 @@ intents:
   - ask_fault_detection_diagnosis
   - ask_learning_adaptivity
   - ask_mobile_manipulation
-  - ask_multiagent_systems
+  - ask_multiagent_agent_systems
   - ask_neural_networks
   - ask_nonlinear_control
   - ask_planning_scheduling
@@ -51,7 +51,7 @@ responses:
       - Fault Detection and Diagnosis
       - Learning and Adaptivity
       - Mobile Manipulation
-      - Multiagent and Agent Systems
+      - Multiagent Systems
       - Neural Networks
       - Probabilistic Reasoning
       Which one are you interested in?
@@ -102,7 +102,7 @@ responses:
     - Coursework includes active participation in lectures, solving homework exercises, and a final oral or written examination.
     - Taught by Prof. Dr. Erwin Praßler"
     
-  utter_multiagent_systems:
+  utter_multiagent_agent_systems:
     - text: "Multiagent and Agent Systems: This course explores basic concepts and architectures of multiagent systems, focusing on practical applications in distributed artificial intelligence.
     - Topics include intelligent autonomous agents, logical foundations, agent architectures, decision making, markets, and auctions. 
     - Coursework involves active class participation, homework exercises, a term project, and a final examination.
