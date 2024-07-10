@@ -41,7 +41,7 @@ responses:
   utter_feeling_bad:
     - text: "I'm sorry to hear that. How can I assist you to make things better?"
 
- utter_subjects:
+  utter_subjects:
    - text: |
       Here are the elective subjects I can provide information on:
       - Adaptive Signal Processing
@@ -102,19 +102,19 @@ responses:
     - Coursework includes active participation in lectures, solving homework exercises, and a final oral or written examination.
     - Taught by Prof. Dr. Erwin Praßler"
     
- utter_multiagent_systems:
+  utter_multiagent_systems:
     - text: "Multiagent and Agent Systems: This course explores basic concepts and architectures of multiagent systems, focusing on practical applications in distributed artificial intelligence.
     - Topics include intelligent autonomous agents, logical foundations, agent architectures, decision making, markets, and auctions. 
     - Coursework involves active class participation, homework exercises, a term project, and a final examination.
     - Taught by Prof. Dr.-Ing. Gerhard Kraetzschmar"
  
- utter_neural_networks:
+  utter_neural_networks:
     - text: "Neural Networks: This course, led by Prof. Dr. rer. nat. Dipl.-Math. Paul Gerhard Plöger, contextualizes neural networks within broader machine learning approaches.
     - It deepens understanding of neural networks, explores advanced concepts like Echo State Networks (ESNs), and applies NNs to problems in autonomous robots.
     - Content includes qualitative descriptions of NNs, their composition, and relation to AI.
     - Coursework requirements include achieving 50% correct in homework exercises, conducting and documenting a small project, and completing a final written examination or E-assessment."
 
- utter_probabilistic_reasoning:
+  utter_probabilistic_reasoning:
     - text: "Probabilistic Reasoning: Led by Prof. Dr. Erwin Praßler, this course covers probabilistic models such as Bayesian Networks, Gaussian distributions, and others to describe uncertain processes.
     - Students gain methodological competency in applying probabilistic methods like Kalman Filters and Particle Filters to data processing, modeling, and reasoning tasks. 
     - They develop a sensibility for the strengths and limitations of probabilistic descriptions and arguments based on probability theory, uncertainty, and decision-making.
