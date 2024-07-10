@@ -161,4 +161,14 @@ nlu:
     - Please clarify
     - What did you say?
 
+- intent: bad_language
+  examples: |
+    - This is bullshit
+    - You're an idiot
+    - Shut up
+    - Damn it
+    - This is crap
+    - Go to hell
+    - You are stupid
+
 

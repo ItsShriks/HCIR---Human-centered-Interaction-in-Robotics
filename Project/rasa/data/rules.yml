@@ -90,4 +90,10 @@ rules:
     steps:
       - intent: fallback
       - action: utter_not_found
+      
+  - rule: Bad language
+    steps:
+      - intent: bad_language
+      - action: utter_bad_language
+
 

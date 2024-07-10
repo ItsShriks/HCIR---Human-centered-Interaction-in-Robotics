@@ -5,7 +5,7 @@ recipe: default.v1
 # The assistant project unique identifier
 # This default value must be replaced with a unique assistant name within your deployment
 #assistant_id: 20240708-121404-brute-force-class
-assistant_id: 20240710-194253-regular-batter
+assistant_id: 20240710-222719-speedy-strategy
 
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
