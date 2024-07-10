@@ -23,8 +23,11 @@ Following is the first order dependencies. Again, RASA is not installed yet due 
 3. qibullet
 4. pydub
 5. gtts
-6. pyagrum
-7. opencv-python
-8. dlib
+6. opencv-python
 
-9. RASA
+7. RASA
+
+pip install rasa
+rasa run --enable-api --cors "*"
+
+sudo apt install ffmpeg
