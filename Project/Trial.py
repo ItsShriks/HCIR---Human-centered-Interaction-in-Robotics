@@ -122,6 +122,7 @@ def pepper_interaction(pepper):
                 use_chatbox = False
                 continue
         else:
+            # Listen for audio input and get response from Rasa
             rasa_response = get_rasa_response("", use_audio=True)
             if rasa_response:
                 user_input = rasa_response[0].get("text", "Sorry, I didn't understand that.")
