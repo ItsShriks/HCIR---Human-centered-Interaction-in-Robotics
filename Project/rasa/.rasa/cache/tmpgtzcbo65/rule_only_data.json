@@ -1,8 +1,0 @@
-{
-  "rule_only_slots": [
-    "difficulty",
-    "credits",
-    "semester"
-  ],
-  "rule_only_loops": []
-}
